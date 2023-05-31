@@ -1,0 +1,30 @@
+{
+  "id": "3c4d2308-e1f4-4510-b79f-8815e9ad205e",
+  "name": "Tables",
+  "publisher": "Dennis Appelt",
+  "version": "21.1.2023033101.2023033101",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0",
+  "features": ["TranslationFile"]
+}
+  
