@@ -20,7 +20,6 @@ TableExtension 50028 tableextension50028 extends Job
                     MODIFY;
                 END;
 
-                // TODO
                 //G-ERP+
                 IF Status = Status::Quote THEN BEGIN
                     "Nächste Nachfrage" := CALCDATE('<+2W>', TODAY);
