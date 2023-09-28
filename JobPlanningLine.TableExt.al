@@ -435,7 +435,19 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
                     L_PurchaseLine.Validate("Document Type", L_PurchaseLine."document type"::Quote);
                     L_PurchaseLine.Validate("Document No.", L_PurchaseHeader."No.");
                     L_PurchaseLine.Validate("Line No.", L_JobPlanningLine."Line No.");
-                    L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::Item);
+
+                    case L_JobPlanningLine.Type
+                     of
+                        "Job Planning Line Type"::"G/L Account":
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::"G/L Account");
+                        "Job Planning Line Type"::Item:
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::Item);
+                        "Job Planning Line Type"::Resource:
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::Resource);
+                        "Job Planning Line Type"::Text:
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::" ");
+                    end;
+
                     L_PurchaseLine.Validate("No.", L_JobPlanningLine."No.");
                     L_PurchaseLine.Validate(Description, L_JobPlanningLine.Description);
                     L_PurchaseLine.Validate("Description 2", L_JobPlanningLine."Description 2");
@@ -479,7 +491,19 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
                     L_PurchaseLine.Validate("Document Type", L_PurchaseLine."document type"::Order);
                     L_PurchaseLine.Validate("Document No.", L_PurchaseHeader."No.");
                     L_PurchaseLine.Validate("Line No.", L_JobPlanningLine."Line No.");
-                    L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::Item);
+
+                    case L_JobPlanningLine.Type
+                     of
+                        "Job Planning Line Type"::"G/L Account":
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::"G/L Account");
+                        "Job Planning Line Type"::Item:
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::Item);
+                        "Job Planning Line Type"::Resource:
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::Resource);
+                        "Job Planning Line Type"::Text:
+                            L_PurchaseLine.Validate(Type, L_PurchaseLine.Type::" ");
+                    end;
+
                     L_PurchaseLine.Validate("No.", L_JobPlanningLine."No.");
                     L_PurchaseLine.Validate(Description, L_JobPlanningLine.Description);
                     L_PurchaseLine.Validate("Description 2", L_JobPlanningLine."Description 2");
@@ -557,7 +581,19 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
                 L_SalesLine.Validate("Document No.", L_SalesHeader."No.");
                 L_SalesLine.Validate("Line No.", L_JobPlanningLine."Line No.");
                 L_SalesLine.Insert(true);
-                L_SalesLine.Validate(Type, L_SalesLine.Type::Item);
+
+                case L_JobPlanningLine.Type
+                of
+                    "Job Planning Line Type"::"G/L Account":
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::"G/L Account");
+                    "Job Planning Line Type"::Item:
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::Item);
+                    "Job Planning Line Type"::Resource:
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::Resource);
+                    "Job Planning Line Type"::Text:
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::" ");
+                end;
+
                 L_SalesLine.Validate("No.", L_JobPlanningLine."No.");
                 L_SalesLine.Validate("Unit of Measure Code", L_JobPlanningLine."Unit of Measure Code");
                 L_SalesLine.Validate("Unit of Measure", L_JobPlanningLine."Unit of Measure Code");
@@ -627,7 +663,19 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
                 L_SalesLine.Validate("Document Type", L_SalesLine."document type"::Order);
                 L_SalesLine.Validate("Document No.", L_SalesHeader."No.");
                 L_SalesLine.Validate("Line No.", L_JobPlanningLine."Line No.");
-                L_SalesLine.Validate(Type, L_SalesLine.Type::Item);
+
+                case L_JobPlanningLine.Type
+              of
+                    "Job Planning Line Type"::"G/L Account":
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::"G/L Account");
+                    "Job Planning Line Type"::Item:
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::Item);
+                    "Job Planning Line Type"::Resource:
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::Resource);
+                    "Job Planning Line Type"::Text:
+                        L_SalesLine.Validate(Type, L_SalesLine.Type::" ");
+                end;
+
                 L_SalesLine.Validate("No.", L_JobPlanningLine."No.");
                 L_SalesLine.Validate(Description, L_JobPlanningLine.Description);
                 L_SalesLine.Validate("Description 2", L_JobPlanningLine."Description 2");
