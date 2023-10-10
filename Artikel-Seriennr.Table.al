@@ -13,11 +13,11 @@ Table 50019 "Artikel-Seriennr"
         {
             Caption = 'Seriennr.';
         }
-        field(10; "Serial No. Description"; Text[50])
+        field(10; "Serial No. Description"; Text[100])
         {
             Caption = 'Seriennr. Beschreibung';
         }
-        field(20; "Serial No. Description 2"; Text[50])
+        field(20; "Serial No. Description 2"; Text[500])
         {
             Caption = 'Seriennr. Beschreibung 2';
         }
@@ -40,6 +40,9 @@ Table 50019 "Artikel-Seriennr"
         {
         }
         field(80; Leistung; Text[50])
+        {
+        }
+        field(85; "Letzte Prüfung"; Date)
         {
         }
         field(90; "Nächste Prüfung"; Date)
