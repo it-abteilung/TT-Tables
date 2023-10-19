@@ -1493,6 +1493,71 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Organisation - Field Search Name Organisation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3196164228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package Tree Temp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 400793991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Bin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 2114378581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delta Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Delta Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 2200046723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indentation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Indentation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 2991555307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Job Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 3790198058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Job Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 2456541637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packed Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Packed Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3196164228 - Field 856369893 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Package Tree Temp - Field Requested Quantity - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1749375606 - Field 1952859466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Artikelnr.</source>
           <note from="Developer" annotates="general" priority="2"></note>
