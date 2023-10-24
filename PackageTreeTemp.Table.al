@@ -58,6 +58,11 @@ table 50023 "Package Tree Temp"
 
         }
 
+        field(200; "On Tool Request"; Boolean)
+        {
+
+        }
+
     }
 
     keys
