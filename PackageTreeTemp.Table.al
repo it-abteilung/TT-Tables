@@ -53,6 +53,11 @@ table 50023 "Package Tree Temp"
         {
 
         }
+        field(100; "Package List"; Text[255])
+        {
+
+        }
+
     }
 
     keys
