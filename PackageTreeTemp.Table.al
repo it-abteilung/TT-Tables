@@ -71,5 +71,9 @@ table 50023 "Package Tree Temp"
         {
             Clustered = true;
         }
+        key(
+        key2; "Item Description", Indentation, Bin)
+        {
+        }
     }
 }
