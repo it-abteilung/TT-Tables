@@ -92,5 +92,7 @@ permissionset 50000 GeneratedPermission
         table Werkzeuganforderungskopf = X,
         table Werkzeuganforderungzeile = X,
         tabledata "Package Tree Temp" = RIMD,
-        table "Package Tree Temp" = X;
+        table "Package Tree Temp" = X,
+        tabledata "Employee Sign Store" = RIMD,
+        table "Employee Sign Store" = X;
 }

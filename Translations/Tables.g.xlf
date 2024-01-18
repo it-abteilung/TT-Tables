@@ -753,6 +753,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Distance Zone - Field Zone - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2163516250 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Employee Sign Store - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163516250 - Field 3765202864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Employee Sign Store - Field Signature - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163516250 - Field 129688762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Employee Sign Store - Field User Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163516250 - Field 3021697414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Security ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Employee Sign Store - Field User Security ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3658223442 - Field 3594614433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Employee To Job Type - Field Job Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3658223442 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Employee To Job Type - Field User ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4201773078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>History</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2758,6 +2788,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50006 - Field Ship-to Name 3 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 520499424 - Field 1447369966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Status Approval 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50006 - Field Status Approval 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 520499424 - Field 3829247411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Status Approval 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50006 - Field Status Approval 2 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 520499424 - Field 2161962033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Unterschriftscode</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4498,6 +4538,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50028 - Field Preisstellung - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 4055553676 - Field 2361530469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Vorheriger Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50028 - Field Prev. Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4055553676 - Field 140375968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Repair  in Euro</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4532,6 +4577,11 @@
           <source>Specification</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50028 - Field Specification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4055553676 - Field 2279368132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Status geändert am</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50028 - Field Status Modify Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4055553676 - Field 3307526923 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Unterprojekt</source>

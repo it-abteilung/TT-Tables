@@ -183,6 +183,14 @@ TableExtension 50006 tableextension50006 extends "Sales Header"
             FieldClass = FlowFilter;
             OptionMembers = " ",Sachkonto,Artikel,Ressource;
         }
+        field(83750; "Status Approval 1"; Boolean)
+        {
+            Caption = 'Status Approval 1';
+        }
+        field(83751; "Status Approval 2"; Boolean)
+        {
+            Caption = 'Status Approval 2';
+        }
     }
 }
 

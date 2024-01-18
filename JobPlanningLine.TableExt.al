@@ -528,9 +528,24 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
         L_JobPlanningLine: Record "Job Planning Line";
         L_Job: Record Job;
         JobAufschlag: Record "Multi Table";
+        FalseJobLineFlag: Boolean;
     begin
+        FalseJobLineFlag := false;
         if not Confirm('Möchte Sie für die Planungszeilen ein Verkaufsangebot erstellen?', false) then
             exit;
+
+        Clear(L_JobPlanningLine);
+        L_JobPlanningLine.SetRange("Job No.", "Job No.");
+        if L_JobPlanningLine.FindSet then
+            repeat
+                if (L_JobPlanningLine.Type = L_JobPlanningLine.Type::Item) OR (L_JobPlanningLine.Type = L_JobPlanningLine.Type::Item) then
+                    if L_JobPlanningLine."Total Price" = 0 then
+                        FalseJobLineFlag := true;
+            until L_JobPlanningLine.Next() = 0;
+
+        if FalseJobLineFlag then
+            if not Confirm('Eine Planungszeile hat einen Verkaufsbetrag von 0.\\Möchten Sie fortfahren?', false) then
+                exit;
 
         L_Job.Get("Job No.");
         L_Customer.Get(L_Job."Bill-to Customer No.");
@@ -618,9 +633,24 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
         L_SalesLine: Record "Sales Line";
         L_JobPlanningLine: Record "Job Planning Line";
         L_Job: Record Job;
+        FalseJobLineFlag: Boolean;
     begin
         if not Confirm('Möchte Sie für die Planungszeilen ein Verkaufsauftrag erstellen?', false) then
             exit;
+
+        Clear(L_JobPlanningLine);
+        L_JobPlanningLine.SetRange("Job No.", "Job No.");
+        if L_JobPlanningLine.FindSet then
+            repeat
+                if (L_JobPlanningLine.Type = L_JobPlanningLine.Type::Item) OR (L_JobPlanningLine.Type = L_JobPlanningLine.Type::Item) then
+                    if L_JobPlanningLine."Total Price" = 0 then
+                        FalseJobLineFlag := true;
+            until L_JobPlanningLine.Next() = 0;
+
+        if FalseJobLineFlag then
+            if not Confirm('In den Planungszeilen befinden sich Posten mit leeren Verkaufspreis.\\Möchten Sie fortfahren?', false) then
+                exit;
+
 
         L_Job.Get("Job No.");
         L_Customer.Get(L_Job."Bill-to Customer No.");

@@ -6,6 +6,8 @@ TableExtension 50028 tableextension50028 extends Job
         {
             trigger OnAfterValidate()
             begin
+                Rec."Prev. Status" := Rec.Status;
+                Rec."Status Modify Date" := Today;
                 IF xRec.Status <> Status THEN BEGIN
                     IF Status = Status::Completed THEN BEGIN
                         VALIDATE(Complete, TRUE);
@@ -24,6 +26,7 @@ TableExtension 50028 tableextension50028 extends Job
                 IF Status = Status::Quote THEN BEGIN
                     "Nächste Nachfrage" := CALCDATE('<+2W>', TODAY);
                 END;
+
                 //G-ERP-
             end;
         }
@@ -678,6 +681,15 @@ TableExtension 50028 tableextension50028 extends Job
             Caption = 'Summen Projekt';
             Description = 'G-ERP';
             InitValue = false;
+        }
+        field(60110; "Prev. Status"; Enum "Job Status")
+        {
+            Caption = 'Vorheriger Status';
+            InitValue = "Open";
+        }
+        field(60120; "Status Modify Date"; Date)
+        {
+            Caption = 'Status geändert am';
         }
     }
 
