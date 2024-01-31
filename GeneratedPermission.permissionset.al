@@ -94,5 +94,9 @@ permissionset 50000 GeneratedPermission
         tabledata "Package Tree Temp" = RIMD,
         table "Package Tree Temp" = X,
         tabledata "Employee Sign Store" = RIMD,
-        table "Employee Sign Store" = X;
+        table "Employee Sign Store" = X,
+        tabledata "Employee To Job Type" = RIMD,
+        tabledata "TT Product Group" = RIMD,
+        table "Employee To Job Type" = X,
+        table "TT Product Group" = X;
 }

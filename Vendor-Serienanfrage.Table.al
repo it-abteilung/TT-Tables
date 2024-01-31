@@ -181,9 +181,9 @@ Table 50003 "Vendor - Serienanfrage"
         {
             Caption = 'E-Mail senden an';
         }
-        field(170; "Ignore Vendor"; Boolean)
+        field(170; "Use Vendor"; Boolean)
         {
-            Caption = 'Ignoriere Kreditor';
+            Caption = 'Verwende Kreditor';
         }
     }
 

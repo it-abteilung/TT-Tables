@@ -7,12 +7,11 @@ TableExtension 50004 tableextension50004 extends Item
             Caption = 'Description 3';
             Description = 'G-ERP.RS 30 -> 50';
         }
-        // field(50005; "Product Group Code TT"; Code[20])
-        // {
-        //     Caption = 'Produktgruppencode';
-        //     FieldClass = FlowField;
-        //     CalcFormula = lookup("Item Category")
-        // }
+        field(50005; "Product Group Code TT"; Code[20])
+        {
+            Caption = 'Produktgruppencode';
+            TableRelation = "TT Product Group".Code where("Item Category Code" = field("Item Category Code"));
+        }
         field(50010; DIN; Code[15])
         {
             Description = 'G-ERP';

@@ -17,7 +17,7 @@ Table 50017 "Vendor Segmentation"
         field(3; Group; Code[20])
         {
             Caption = 'Gruppe';
-            TableRelation = "Item Category".Code where(Code = field(Segmentation));
+            TableRelation = "TT Product Group".Code where("Item Category Code" = field(Segmentation));
         }
     }
 

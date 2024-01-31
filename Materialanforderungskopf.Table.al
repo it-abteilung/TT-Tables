@@ -59,7 +59,7 @@ Table 50007 Materialanforderungskopf
             Caption = 'Vortext 2';
             TableRelation = "Standard Text";
         }
-        field(702; "Vorlauftext m"; Text[50])
+        field(702; "Vorlauftext m"; Text[1000])
         {
             Caption = 'Vortext manuell';
         }
@@ -73,7 +73,7 @@ Table 50007 Materialanforderungskopf
             Caption = 'Nachtext 2';
             TableRelation = "Standard Text";
         }
-        field(712; "Nachlauftext m"; Text[50])
+        field(712; "Nachlauftext m"; Text[1000])
         {
             Caption = 'Nachtext manuell';
         }
@@ -123,4 +123,3 @@ Table 50007 Materialanforderungskopf
         Anforderer := UserId; //G-ERP.RS 2021-05-25
     end;
 }
-
