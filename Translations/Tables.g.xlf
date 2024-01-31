@@ -2268,6 +2268,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wareneingangskontrolle - Field Welche Papiere vorhanden - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1935457389 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Welding Supervisior - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1935457389 - Field 129688762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Welding Supervisior - Field User Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1935457389 - Field 3021697414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Security ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Welding Supervisior - Field User Security ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2854132379 - Field 3392860712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Flow Action</source>
           <note from="Developer" annotates="general" priority="2"></note>

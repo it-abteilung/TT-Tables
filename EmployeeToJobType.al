@@ -2,7 +2,7 @@ table 50058 "Employee To Job Type"
 {
     fields
     {
-        field(1; "User ID"; Code[20])
+        field(1; "User ID"; Code[50])
         {
             TableRelation = User."User Name";
             ValidateTableRelation = false;

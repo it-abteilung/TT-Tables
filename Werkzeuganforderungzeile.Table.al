@@ -19,7 +19,6 @@ Table 50022 Werkzeuganforderungzeile
         }
         field(20; "Artikel Nr"; Code[20])
         {
-
             trigger OnValidate()
             begin
                 Item.Get("Artikel Nr");

@@ -10,7 +10,7 @@ table 50057 "Employee Sign Store"
         {
             DataClassification = OrganizationIdentifiableInformation;
         }
-        field(20; "User Name"; Code[20])
+        field(20; "User Name"; Code[50])
         {
             DataClassification = OrganizationIdentifiableInformation;
             TableRelation = User."User Name";
