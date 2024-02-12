@@ -98,5 +98,7 @@ permissionset 50000 GeneratedPermission
         tabledata "Employee To Job Type" = RIMD,
         tabledata "TT Product Group" = RIMD,
         table "Employee To Job Type" = X,
-        table "TT Product Group" = X;
+        table "TT Product Group" = X,
+        tabledata "Welding Supervisior" = RIMD,
+        table "Welding Supervisior" = X;
 }

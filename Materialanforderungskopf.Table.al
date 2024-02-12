@@ -25,6 +25,54 @@ Table 50007 Materialanforderungskopf
             OptionCaption = 'erfasst,freigegeben,beendet';
             OptionMembers = erfasst,freigegeben,beendet;
         }
+        field(80; "Place of Delivery"; Option)
+        {
+            Caption = 'Lieferort';
+            OptionMembers = "WHV","Benutzerdefinitert";
+        }
+        field(81; "Ship-to Name"; Text[100])
+        {
+            Caption = 'Name';
+        }
+        field(82; "Ship-to Name 2"; Text[50])
+        {
+            Caption = 'Name 2';
+        }
+        field(83; "Ship-to Address"; Text[100])
+        {
+            Caption = 'Adresse';
+        }
+        field(84; "Ship-to Address 2"; Text[50])
+        {
+            Caption = 'Adresse 2';
+        }
+        field(85; "Ship-to City"; Text[30])
+        {
+            Caption = 'Ort';
+        }
+        field(86; "Ship-to Post Code"; Code[20])
+        {
+            Caption = 'PLZ';
+        }
+        field(87; "Ship-to Country/Region Code"; Code[10])
+        {
+            Caption = 'Land/Region';
+            TableRelation = "Country/Region";
+        }
+        field(88; "Ship-to Contact"; Text[100])
+        {
+            TableRelation = Resource."No.";
+            Caption = 'Kontakt';
+            ValidateTableRelation = false;
+        }
+        field(90; "Purchase Order Date"; Date)
+        {
+            Caption = 'Delivery Date';
+        }
+        field(91; "Delivery Period"; Code[50])
+        {
+            Caption = 'Delivery Period';
+        }
         field(500; Beschreibung; Text[100])
         {
             CalcFormula = lookup(Job.Description where("No." = field("Projekt Nr")));

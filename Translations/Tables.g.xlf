@@ -1003,6 +1003,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Mail Tabelle - Field Zeilennr - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1161926454 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Material To Quote - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1161926454 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Material To Quote - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1161926454 - Field 1808065500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Material Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Material To Quote - Field Material Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1161926454 - Field 2657395288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Material No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Material To Quote - Field Material No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1161926454 - Field 3399201719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial Quote No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Material To Quote - Field Serial Quote No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 15684787 - Field 3094223676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Anforderer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1027,6 +1052,11 @@
           <source>Beschreibung 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Beschreibung 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 3239713555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Delivery Period - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 15684787 - Field 1346123549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Geplantes Versanddatum</source>
@@ -1063,10 +1093,60 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Nachlauftext m - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 15684787 - Field 2229719162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lieferort</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Place of Delivery - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 15684787 - Field 2869646683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Projekt Nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Projekt Nr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 3758467595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Purchase Order Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 1187003046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adresse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 1417792948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adresse 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to Address 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 1981213637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ort</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 929198632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kontakt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 3354576322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Land/Region</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 2743501653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 3261344115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to Name 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 15684787 - Field 3172878019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PLZ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Ship-to Post Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 15684787 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status</source>
@@ -1168,6 +1248,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Gehört zu Zeilen Nr - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3872203593 - Field 101964516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has Substitute</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Has Substitute - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3872203593 - Field 2399452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Is Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3872203593 - Field 982444044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Substitute</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Is Substitute - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3872203593 - Field 141693254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1187,6 +1282,21 @@
           <source>Projekt Nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Projekt Nr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3872203593 - Field 1563913911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quoted Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Quoted Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3872203593 - Field 3399201719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial Quote No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Serial Quote No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3872203593 - Field 3460833340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Substitute To Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungzeile - Field Substitute To Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3872203593 - Field 1861330735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Zeilen Nr</source>
