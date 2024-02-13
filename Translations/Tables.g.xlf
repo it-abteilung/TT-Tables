@@ -1074,7 +1074,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Leistung - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 15684787 - Field 141693254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Entry No.</source>
+          <source>Lfd. Nr.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Lfd Nr - Property Caption</note>
         </trans-unit>
@@ -1099,7 +1099,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Place of Delivery - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 15684787 - Field 2869646683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Projekt Nr</source>
+          <source>Projekt-Nr.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Projekt Nr - Property Caption</note>
         </trans-unit>
@@ -1159,7 +1159,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Status - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 15684787 - Field 1451854269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Stichwort</source>
+          <source>Anforderungsgrund</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Materialanforderungskopf - Field Stichwort - Property Caption</note>
         </trans-unit>

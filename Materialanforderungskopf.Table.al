@@ -9,10 +9,11 @@ Table 50007 Materialanforderungskopf
         field(1; "Projekt Nr"; Code[20])
         {
             TableRelation = Job."No.";
+            Caption = 'Projekt-Nr.';
         }
         field(2; "Lfd Nr"; Integer)
         {
-            Caption = 'Entry No.';
+            Caption = 'Lfd. Nr.';
         }
         field(10; Belegdatum; Date)
         {
@@ -87,6 +88,7 @@ Table 50007 Materialanforderungskopf
         }
         field(502; Stichwort; Text[50])
         {
+            Caption = 'Anforderungsgrund';
         }
         field(600; Typ; Option)
         {
