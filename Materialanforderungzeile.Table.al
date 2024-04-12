@@ -27,8 +27,10 @@ Table 50005 Materialanforderungzeile
             trigger OnValidate()
             begin
                 if Rec."Artikel Nr" <> xRec."Artikel Nr" then begin
-                    Rec."Is Item No." := false;
                     if Item.Get(Rec."Artikel Nr") then begin
+                        Rec."Is Item No." := false;
+                        if Item.Blocked then
+                            Error('Artikel %1 ist gesperrt.', "Artikel Nr");
                         Rec."Is Item No." := true;
                         Rec.Beschreibung := Item.Description;
                         Rec."Beschreibung 2" := Item."Description 2";

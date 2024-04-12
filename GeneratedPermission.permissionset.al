@@ -1,6 +1,7 @@
 permissionset 50000 GeneratedPermission
 {
     Assignable = true;
+    Caption = 'Test';
     Permissions = tabledata "Artikel-Seriennr" = RIMD,
         tabledata Ausstattung_Posten = RIMD,
         tabledata Ausstattung_Zeile = RIMD,
@@ -100,5 +101,9 @@ permissionset 50000 GeneratedPermission
         table "Employee To Job Type" = X,
         table "TT Product Group" = X,
         tabledata "Welding Supervisior" = RIMD,
-        table "Welding Supervisior" = X;
+        table "Welding Supervisior" = X,
+        tabledata "Material To Quote" = RIMD,
+        table "Material To Quote" = X,
+        tabledata "Temp. Bin Content" = RIMD,
+        table "Temp. Bin Content" = X;
 }

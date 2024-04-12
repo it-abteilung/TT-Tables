@@ -58,6 +58,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Artikel-Seriennr - Field Item No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 818223253 - Field 4276668411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Scan Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Artikel-Seriennr - Field Last Scan Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 818223253 - Field 554438540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Scan Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Artikel-Seriennr - Field Last Scan Location - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 818223253 - Field 1047152349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Leistung</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2103,6 +2113,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Serienanfragen erstellen - Field Zeilennr - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 57792106 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Temp. Bin Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 411531942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Base Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 2814799924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Bin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 3056944571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Item Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 57792106 - Field 47037625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temp. Bin Content - Field Serial No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 246828489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Temporäre Werkzeuganforderung</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2333,15 +2393,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wareneingangskontrolle - Field Gefahrstoff - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4227736169 - Field 4288830250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>geprüft QM am</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wareneingangskontrolle - Field geprüft QM am - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 4227736169 - Field 211299942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>geprüft am</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wareneingangskontrolle - Field geprüft am - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4227736169 - Field 4288830250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>geprüft QM am</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wareneingangskontrolle - Field geprüft QM am - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4227736169 - Field 854440315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>geprüft von</source>
@@ -2428,6 +2488,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Werkzeuganforderungskopf - Field Beschreibung 2 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3387892496 - Field 1407200743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creation Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Werkzeuganforderungskopf - Field Creation Date - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3387892496 - Field 2955582367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fertigstellung</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2482,6 +2547,16 @@
           <source>Schiff/Objekt</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Werkzeuganforderungskopf - Field Schiff - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3387892496 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Werkzeuganforderungskopf - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3387892496 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Erstellt,Bearbeitung,Erledigt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Werkzeuganforderungskopf - Field Status - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3387892496 - Field 1451854269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Stichwort</source>
@@ -2632,6 +2707,41 @@
           <source>Zeilen Nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Werkzeuganforderungzeile - Field Zeilen Nr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 400793991 - Field 4038899978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400793991">
+          <source>Closed Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bin - Field Closed Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 400793991 - Field 3142540971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400793991">
+          <source>Closer Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bin - Field Closer Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 400793991 - Field 573373209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400793991">
+          <source>Closing Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bin - Field Closing Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 400793991 - Field 2248839686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400793991">
+          <source>Inspection Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bin - Field Inspection Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 400793991 - Field 1019867934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400793991">
+          <source>Inspection Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bin - Field Inspection Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 400793991 - Field 705180354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400793991">
+          <source>Inspector Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bin - Field Inspector Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3708982509 - Field 1465154660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3399585325">
+          <source>Allow Edit Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50001 - Field Allow Edit Item - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3708982509 - Field 987576738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3399585325">
           <source>Direct Dial Number</source>
@@ -3453,10 +3563,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50012 - Field Auswahl - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 206027676 - Field 3147639044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <source>Block_Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50013 - Field Block_Items - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 206027676 - Field 3241829631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
           <source>Einkauf nur liefern</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50013 - Field Einkauf nur liefern - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 206027676 - Field 1951411979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <source>Upload_Files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50013 - Field Upload_Files - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2587905121 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2064785779">
           <source>Description</source>
@@ -4538,6 +4658,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50028 - Field EK-Transportkosten Soll - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 4055553676 - Field 3231421452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>External Document No. Copy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50028 - Field External Document No. Copy - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4055553676 - Field 4237779884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
           <source>Flugkostenzuschlag %</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4903,11 +5028,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50034 - Field Anzeige Menge - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3124173663 - Field 22371452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
-          <source>Attached to Line No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50034 - Field Attached to Line No. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 3124173663 - Field 838391479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
           <source>Aufschlag %</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5042,6 +5162,11 @@
           <source>Stückpreis in Währungscode</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50034 - Field Stückpreis in Währungscode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3124173663 - Field 723506384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Temp Attached to Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50034 - Field Temp Attached to Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3124173663 - Field 108239493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
           <source>Transportkosten</source>
@@ -5282,6 +5407,11 @@
           <source>Date of First Contact</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50036 - Field Date of First Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 104599601 - Field 119367726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3993128796">
+          <source>DATEV</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50036 - Field DATEV - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 104599601 - Field 3160559647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3993128796">
           <source>Dialing Code</source>
@@ -5867,6 +5997,11 @@
           <source>Abgerechnet</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension JobStatusEnumEtx - EnumValue Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 4285830208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet GeneratedPermission - Property Caption</note>
         </trans-unit>
       </group>
     </body>

@@ -87,6 +87,14 @@ Table 50019 "Artikel-Seriennr"
             Caption = 'Beschreibung 2';
             FieldClass = FlowField;
         }
+        field(600; "Last Scan Date"; Date)
+        {
+
+        }
+        field(610; "Last Scan Location"; Code[10])
+        {
+
+        }
     }
 
     keys

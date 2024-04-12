@@ -115,6 +115,14 @@ Table 50008 Werkzeuganforderungskopf
         field(900; "Verpackung Unverpackt"; Boolean)
         {
         }
+        field(910; "Creation Date"; Date)
+        {
+        }
+        field(920; Status; Option)
+        {
+            OptionCaption = 'Erstellt,Bearbeitung,Erledigt';
+            OptionMembers = Erstellt,Bearbeitung,Erledigt;
+        }
     }
 
     keys
@@ -128,5 +136,11 @@ Table 50008 Werkzeuganforderungskopf
     fieldgroups
     {
     }
+
+    trigger OnInsert()
+    begin
+        Rec."Creation Date" := Today();
+        Rec.Status := Rec.Status::Erstellt;
+    end;
 }
 

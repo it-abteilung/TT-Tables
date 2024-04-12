@@ -536,6 +536,11 @@ TableExtension 50036 tableextension50036 extends Contact
             Description = 'ctm.we';
             Editable = false;
         }
+        field(88001; DATEV; Code[20])
+        {
+            Caption = 'DATEV';
+            Description = 'G-ERP';
+        }
     }
 }
 

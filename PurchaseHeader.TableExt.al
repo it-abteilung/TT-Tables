@@ -270,6 +270,9 @@ TableExtension 50008 tableextension50008 extends "Purchase Header"
         key(Key1; Serienanfragennr, TreeNo)
         {
         }
+        key(KeyPRD; "Promised Receipt Date")
+        {
+        }
     }
     local procedure GetVend(VendNo: Code[20])
     begin

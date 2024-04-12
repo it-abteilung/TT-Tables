@@ -188,11 +188,15 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
         field(50175; "EK-Fremdlieferungkosten"; Decimal)
         {
         }
-        field(50180; "Attached to Line No."; Integer)
+        // TODO remove it for 24.1.16924.0
+        // field(50180; "Attached to Line No."; Integer)
+        // {
+        //     Caption = 'Attached to Line No.';
+        //     Editable = false;
+        //     TableRelation = "Job Planning Line"."Line No." where("Job No." = field("Job No."));
+        // }
+        field(50181; "Temp Attached to Line No."; Integer)
         {
-            Caption = 'Attached to Line No.';
-            Editable = false;
-            TableRelation = "Job Planning Line"."Line No." where("Job No." = field("Job No."));
         }
         field(50190; Pos; Code[20])
         {
@@ -744,7 +748,7 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
     begin
         Clear(l_JobPlanningLine);
         l_JobPlanningLine.SetRange("Job No.", "Job No.");
-        l_JobPlanningLine.SetRange("Attached to Line No.", "Line No.");
+        l_JobPlanningLine.SetRange("Temp Attached to Line No.", "Line No.");
         if l_JobPlanningLine.FindFirst then
             l_JobPlanningLine.DeleteAll;
 
@@ -761,7 +765,7 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
                 l_JobPlanningLine.Validate(Type, l_JobPlanningLine.Type::Item);
                 l_JobPlanningLine.Validate("No.", FromBOMComp."No.");
                 l_JobPlanningLine.Validate(Quantity, ROUND(Quantity * FromBOMComp."Quantity per", 0.00001));
-                l_JobPlanningLine."Attached to Line No." := "Line No.";
+                l_JobPlanningLine."Temp Attached to Line No." := "Line No.";
                 l_JobPlanningLine.Modify(true);
             until FromBOMComp.Next = 0;
     end;
