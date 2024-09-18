@@ -18,66 +18,66 @@ Table 50024 "Project Consumption"
 
     fields
     {
-        field(1;"Job No.";Code[20])
+        field(1; "Job No."; Code[20])
         {
             Caption = 'Projekt Nr.';
             NotBlank = true;
             TableRelation = Job;
         }
-        field(2;"Entry No.";Integer)
+        field(2; "Entry No."; Integer)
         {
             Caption = 'Lfd. Nr.';
         }
-        field(3;"Bin Code";Code[20])
+        field(3; "Bin Code"; Code[20])
         {
             Caption = 'Lagerplatz Code';
             TableRelation = Bin;
         }
-        field(10;"Item No.";Code[20])
+        field(10; "Item No."; Code[20])
         {
             Caption = 'Artikel Nr.';
             TableRelation = Item;
         }
-        field(11;"Item Description";Text[50])
+        field(11; "Item Description"; Text[100])
         {
             Caption = 'Artikel Beschreibung';
         }
-        field(12;"Item Description 2";Text[50])
+        field(12; "Item Description 2"; Text[100])
         {
             Caption = 'Artikel Beschreibung 2';
         }
-        field(20;Stock;Decimal)
+        field(20; Stock; Decimal)
         {
             Caption = 'Bestand';
         }
-        field(30;"Serial No.";Code[20])
+        field(30; "Serial No."; Code[20])
         {
             Caption = 'Seriennr.';
         }
-        field(40;"Lot No.";Code[20])
+        field(40; "Lot No."; Code[20])
         {
             Caption = 'Chargennr.';
         }
-        field(50;Quantity;Decimal)
+        field(50; Quantity; Decimal)
         {
             Caption = 'Menge';
         }
-        field(60;"Post Out";Boolean)
+        field(60; "Post Out"; Boolean)
         {
             Caption = 'Ausbuchen';
         }
-        field(70;"Item TT Type";Option)
+        field(70; "Item TT Type"; Option)
         {
             Caption = 'Artikel TT Art';
             OptionMembers = Material,Werkzeug;
         }
-        field(80;"Last Direct Cost";Decimal)
+        field(80; "Last Direct Cost"; Decimal)
         {
             AutoFormatType = 2;
             Caption = 'Last Direct Cost';
             MinValue = 0;
         }
-        field(90;"Unit Price";Decimal)
+        field(90; "Unit Price"; Decimal)
         {
             AutoFormatType = 2;
             Caption = 'Unit Price';
@@ -88,20 +88,20 @@ Table 50024 "Project Consumption"
                 "Selling Price Project" := "Unit Price";
             end;
         }
-        field(100;"Selling Price Project";Decimal)
+        field(100; "Selling Price Project"; Decimal)
         {
             Caption = 'Verkaufspreis Projekt';
         }
-        field(110;Employee;Text[50])
+        field(110; Employee; Text[50])
         {
             Caption = 'Mitarbeiter';
         }
-        field(120;"Employee No.";Code[20])
+        field(120; "Employee No."; Code[20])
         {
             Caption = 'Mitarbeiter Nr.';
             TableRelation = Employee;
         }
-        field(130;"Unit of Measure";Code[10])
+        field(130; "Unit of Measure"; Code[10])
         {
             Caption = 'Einheit';
         }
@@ -109,7 +109,7 @@ Table 50024 "Project Consumption"
 
     keys
     {
-        key(Key1;"Job No.","Entry No.")
+        key(Key1; "Job No.", "Entry No.")
         {
             Clustered = true;
         }

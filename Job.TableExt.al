@@ -691,9 +691,6 @@ TableExtension 50028 tableextension50028 extends Job
         {
             Caption = 'Status geändert am';
         }
-        field(60200; "External Document No. Copy"; Code[35])
-        {
-        }
     }
 
     // trigger OnInsert()

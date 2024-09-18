@@ -4,22 +4,22 @@ Table 50016 Job_DefaultFolder
 
     fields
     {
-        field(1;"Code";Option)
+        field(1; "Code"; Option)
         {
             OptionCaption = 'Projekt,Unterprojekt';
             OptionMembers = Project,Subproject;
         }
-        field(2;Index;Integer)
+        field(2; Index; Integer)
         {
         }
-        field(10;"Folder Name";Text[30])
+        field(10; "Folder Name"; Text[30])
         {
         }
     }
 
     keys
     {
-        key(Key1;"Code",Index)
+        key(Key1; "Code", Index)
         {
             Clustered = true;
         }

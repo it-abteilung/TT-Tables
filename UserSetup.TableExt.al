@@ -12,6 +12,9 @@ TableExtension 50013 tableextension50013 extends "User Setup"
         field(50020; "Upload_Files"; Boolean)
         {
         }
+        field(50030; "Edit Memo Goods Receipt"; Boolean)
+        {
+        }
     }
 }
 
