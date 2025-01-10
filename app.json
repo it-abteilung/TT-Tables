@@ -2,7 +2,7 @@
   "id": "3c4d2308-e1f4-4510-b79f-8815e9ad205e",
   "name": "Tables",
   "publisher": "Dennis Appelt",
-  "version": "24.0.2024091701.2024091701",
+  "version": "24.0.2025010801.2025010801",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -24,7 +24,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "9.0",
+  "runtime": "13.0",
   "features": [
     "TranslationFile"
   ]

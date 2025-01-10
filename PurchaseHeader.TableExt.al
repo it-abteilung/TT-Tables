@@ -96,17 +96,46 @@ TableExtension 50008 tableextension50008 extends "Purchase Header"
             Description = 'G-ERP';
 
             trigger OnValidate()
+            var
+                Matches: Record Matches;
+                Regex: Codeunit Regex;
+                Pattern: Text;
+                IndexPos: Integer;
+                InputStrLen: Integer;
+
             begin
                 if Leistungszeitraum <> '' then begin
-                    if StrLen(Leistungszeitraum) = 3 then
-                        Leistungszeitraum := '0' + CopyStr(Leistungszeitraum, 1, 1) + '/20' + CopyStr(Leistungszeitraum, 2, 2)
-                    else
-                        Leistungszeitraum := CopyStr(Leistungszeitraum, 1, 2) + '/20' + CopyStr(Leistungszeitraum, 3, 2);
-                    if not (CopyStr(Leistungszeitraum, 1, 2) in ['01' .. '12']) then
-                        Error('Fehlerhaftes Datum!');
-                end;
+                    InputStrLen := StrLen(Leistungszeitraum);
 
-                UpdatePurchLines(FieldCaption(Leistungszeitraum), false);
+                    if InputStrLen < 3 then begin
+                        Error('Eingabe benötigt eine minimale L#nge von drei Ziffern');
+                    end;
+
+                    Pattern := '^(0?[1-9]|1[0-2])\/?(20[0-9]{2}|[0-9]{2})$';
+                    if Regex.IsMatch(Rec.Leistungszeitraum, Pattern, 0) then begin
+                        // 0 = / not in string
+                        IndexPos := Format(Leistungszeitraum).IndexOf('/');
+                        if IndexPos = 0 then begin
+                            if InputStrLen < 7 then begin
+                                if InputStrLen = 3 then begin
+                                    Leistungszeitraum := '0' + CopyStr(Leistungszeitraum, 1, 1) + '/20' + CopyStr(Leistungszeitraum, 2, 2);
+                                end else begin
+                                    Leistungszeitraum := CopyStr(Leistungszeitraum, 1, 2) + '/20' + CopyStr(Leistungszeitraum, InputStrLen - 1, 2);
+                                end;
+                            end;
+                        end else begin
+                            if InputStrLen < 7 then begin
+                                if IndexPos = 2 then begin
+                                    Leistungszeitraum := '0' + CopyStr(Leistungszeitraum, 1, 1) + '/20' + CopyStr(Leistungszeitraum, IndexPos + 1, 2);
+                                end else begin
+                                    Leistungszeitraum := CopyStr(Leistungszeitraum, 1, 2) + '/20' + CopyStr(Leistungszeitraum, InputStrLen - 1, 2);
+                                end;
+                            end;
+                        end;
+                        UpdatePurchLines(FieldCaption(Leistungszeitraum), false);
+                    end else
+                        Error('Das Format wird nicht unterstützt. Versuche die Formate mmjj, mmjjjj, mm/jj oder mm/jjjj');
+                end;
             end;
         }
         field(50060; Serienanfragennr; Code[20])
@@ -232,6 +261,10 @@ TableExtension 50008 tableextension50008 extends "Purchase Header"
                                                                               "Document No." = field("No.")));
             Editable = false;
             FieldClass = FlowField;
+        }
+        field(50400; "Send Date"; Date)
+        {
+            Caption = 'Send Date';
         }
         field(82007; "Pay-to Name 3"; Text[50])
         {

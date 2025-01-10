@@ -191,6 +191,10 @@ TableExtension 50006 tableextension50006 extends "Sales Header"
         {
             Caption = 'Status Approval 2';
         }
+        field(83752; "Status Flag"; Text[100])
+        {
+            Caption = 'Status Flag';
+        }
     }
 }
 

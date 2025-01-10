@@ -18,8 +18,14 @@ TableExtension 50027 tableextension50027 extends Resource
             Caption = 'Kreditor';
             TableRelation = Vendor;
         }
-    }
 
+        field(50010; "User ID"; Code[50])
+        {
+            Caption = 'Benutzer-ID';
+            TableRelation = User."User Name";
+            ValidateTableRelation = false;
+        }
+    }
 
     //Unsupported feature: Code Modification on "OnInsert".
 

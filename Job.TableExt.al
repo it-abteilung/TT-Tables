@@ -70,7 +70,7 @@ TableExtension 50028 tableextension50028 extends Job
         {
             Caption = 'Submission by';
             Description = 'G-ERP';
-            TableRelation = Resource;
+            TableRelation = Resource Where(Blocked = Const(false));
         }
         field(50006; Reparaturort; Text[30])
         {
@@ -130,7 +130,7 @@ TableExtension 50028 tableextension50028 extends Job
         {
             Caption = 'Person Author';
             Description = 'G-ERP';
-            TableRelation = Resource;
+            TableRelation = Resource Where(Blocked = Const(false));
         }
         field(50022; Objektname; Text[100])
         {
@@ -142,7 +142,7 @@ TableExtension 50028 tableextension50028 extends Job
         {
             Caption = 'Repair manager';
             Description = 'G-ERP';
-            TableRelation = Resource;
+            TableRelation = Resource Where(Blocked = Const(false));
         }
         field(50030; "Betriebsstätte Rotterdam"; Boolean)
         {
@@ -676,6 +676,10 @@ TableExtension 50028 tableextension50028 extends Job
             Caption = 'Hauptprojekt Nr.';
             Description = 'G-ERP';
         }
+        field(60090; "Hyperlink"; Text[200])
+        {
+
+        }
         field(60100; SumProject; Boolean)
         {
             Caption = 'Summen Projekt';
@@ -690,6 +694,27 @@ TableExtension 50028 tableextension50028 extends Job
         field(60120; "Status Modify Date"; Date)
         {
             Caption = 'Status geändert am';
+        }
+
+        modify("Person Responsible")
+        {
+            trigger OnAfterValidate()
+            var
+                MyJob_L: Record "My Job";
+                Resource_L: Record Resource;
+            begin
+                MyJob_L.SetRange("Job No.", Rec."No.");
+                if MyJob_L.FindLast() then
+                    MyJob_L.Delete();
+                if Resource_L.Get(Rec."Person Responsible") then begin
+                    if Resource_L."User ID" <> '' then begin
+                        MyJob_L.Init();
+                        MyJob_L."User ID" := Resource_L."User ID";
+                        MyJob_L."Job No." := Rec."No.";
+                        MyJob_L.Insert(false);
+                    end
+                end
+            end;
         }
     }
 

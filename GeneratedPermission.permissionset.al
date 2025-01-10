@@ -105,5 +105,15 @@ permissionset 50000 GeneratedPermission
         tabledata "Material To Quote" = RIMD,
         table "Material To Quote" = X,
         tabledata "Temp. Bin Content" = RIMD,
-        table "Temp. Bin Content" = X;
+        table "Temp. Bin Content" = X,
+        tabledata "Lot No. Quantity Temp" = RIMD,
+        tabledata "Memo. Goods Receipt" = RIMD,
+        tabledata "Metal Sheet" = RIMD,
+        tabledata "Purchase Liquidity" = RIMD,
+        tabledata "Workflow Approval Data" = RIMD,
+        table "Lot No. Quantity Temp" = X,
+        table "Memo. Goods Receipt" = X,
+        table "Metal Sheet" = X,
+        table "Purchase Liquidity" = X,
+        table "Workflow Approval Data" = X;
 }
