@@ -23,7 +23,7 @@ table 50031 "Workflow Approval Data"
     }
     keys
     {
-        key(key1; "Record Id")
+        key(key1; "Record Id", "Workflow Context")
         {
             Clustered = true;
         }

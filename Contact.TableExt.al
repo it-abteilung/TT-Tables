@@ -541,6 +541,45 @@ TableExtension 50036 tableextension50036 extends Contact
             Caption = 'DATEV';
             Description = 'G-ERP';
         }
-    }
-}
+        field(88010; "Parent Contact No."; Code[20])
+        {
+            Caption = 'Parent Contact No.';
+            Description = 'TT - C.N.';
+            TableRelation = Contact."No." where(Type = Const(Company), "Is Corporation" = const(true));
+            ValidateTableRelation = false;
 
+            trigger OnValidate()
+            var
+                Contact_L: Record Contact;
+            begin
+                if Rec."Parent Contact No." <> Rec."No." then
+                    if NOT Contact_L.Get(Rec."Parent Contact No.") then begin
+                        Error('Keinen Kontakt mit dieser Nummer gefunden');
+                    end;
+            end;
+        }
+        field(88020; "Just Sales"; Boolean)
+        {
+            Caption = 'Just Sales';
+            Description = 'Nur der Vertrieb darf auf diesen Kontakt zugreifen';
+        }
+        field(88030; "Is Corporation"; Boolean)
+        {
+            Caption = 'Is Corporation';
+            Description = 'Es handelt sich um eine Unternehmensgruppe';
+        }
+    }
+
+    var
+        xx: Page 1310;
+
+    trigger OnInsert()
+    var
+        SalespersonPurchaser_L: Record "Salesperson/Purchaser";
+    begin
+        Rec."Parent Contact No." := Rec."No.";
+        SalespersonPurchaser_L.SetRange("User ID", UserId);
+        if SalespersonPurchaser_L.FindFirst() then
+            Rec."Salesperson Code" := SalespersonPurchaser_L."Code";
+    end;
+}

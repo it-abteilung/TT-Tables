@@ -130,6 +130,10 @@ TableExtension 50011 tableextension50011 extends "Item Journal Line"
             begin
             end;
         }
+        field(50400; "Short Comment"; Text[200])
+        {
+            Caption = 'Short Comment';
+        }
     }
 
 

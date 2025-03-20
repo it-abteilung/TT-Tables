@@ -54,6 +54,12 @@ table 50033 "TT User Setting"
             FieldClass = FlowField;
             CalcFormula = count("Warehouse Employee" where("User ID" = field("User Name")));
         }
+        field(50; "Job Status Notification"; Boolean)
+        {
+        }
+        field(60; "Just Sales"; Boolean)
+        {
+        }
     }
 
     keys

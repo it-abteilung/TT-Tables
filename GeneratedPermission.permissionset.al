@@ -115,5 +115,11 @@ permissionset 50000 GeneratedPermission
         table "Memo. Goods Receipt" = X,
         table "Metal Sheet" = X,
         table "Purchase Liquidity" = X,
-        table "Workflow Approval Data" = X;
+        table "Workflow Approval Data" = X,
+        tabledata "Item Journal Comment" = RIMD,
+        tabledata "TT User Setting" = RIMD,
+        tabledata "Vendor Blocked State" = RIMD,
+        table "Item Journal Comment" = X,
+        table "TT User Setting" = X,
+        table "Vendor Blocked State" = X;
 }

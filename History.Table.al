@@ -5,20 +5,20 @@ Table 82007 History
 
     fields
     {
-        field(1;"Contactno.";Code[20])
+        field(1; "Contactno."; Code[20])
         {
             Caption = 'Contactno.';
             TableRelation = Contact;
         }
-        field(2;"Line No.";Integer)
+        field(2; "Line No."; Integer)
         {
             Caption = 'Line No.';
         }
-        field(3;Date;Date)
+        field(3; Date; Date)
         {
             Caption = 'Date';
         }
-        field(4;History;Text[70])
+        field(4; History; Text[70])
         {
             Caption = 'History';
         }
@@ -26,7 +26,7 @@ Table 82007 History
 
     keys
     {
-        key(Key1;"Contactno.","Line No.")
+        key(Key1; "Contactno.", "Line No.")
         {
             Clustered = true;
         }
@@ -61,7 +61,7 @@ Table 82007 History
         rHistory.SetRecfilter;
         rHistory.SetRange("Line No.");
         if not rHistory.Find('-') then
-          Date := WorkDate;
+            Date := WorkDate;
     end;
 }
 

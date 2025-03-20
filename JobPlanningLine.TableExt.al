@@ -234,6 +234,13 @@ TableExtension 50034 tableextension50034 extends "Job Planning Line"
         {
             Description = 'G-ERP';
         }
+
+        modify("Unit Price")
+        {
+            trigger OnAfterValidate()
+            begin
+            end;
+        }
     }
     var
         CurrExchRate: Record "Currency Exchange Rate";

@@ -13,7 +13,7 @@ TableExtension 50044 tableextension50044 extends "Warehouse Activity Header"
             var
                 Job_l: Record Job;
                 Error_JobNo: label 'Das Projekt %1 konnte nicht gefunden werden.';
-                Error_SumProject: label 'Ein Summenprojket kann nicht eingetragen werden.';
+                Error_SumProject: label 'Ein Summenprojekt kann nicht eingetragen werden.';
             begin
             end;
         }

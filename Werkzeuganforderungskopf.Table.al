@@ -142,8 +142,8 @@ Table 50008 Werkzeuganforderungskopf
         WAK: Record Werkzeuganforderungskopf;
     begin
         WAK.SetRange("Projekt Nr", Rec."Projekt Nr");
-        if WAK.FindSet() then begin
-            Rec."Lfd Nr" := (WAK.Count() * 10000) + 10000;
+        if WAK.FindLast() then begin
+            Rec."Lfd Nr" := WAK."Lfd Nr" + 10000;
         end else begin
             Rec."Lfd Nr" := 10000;
         end;

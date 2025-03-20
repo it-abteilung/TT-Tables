@@ -1,5 +1,6 @@
 TableExtension 50028 tableextension50028 extends Job
 {
+    
     fields
     {
         modify(Status)
@@ -676,7 +677,7 @@ TableExtension 50028 tableextension50028 extends Job
             Caption = 'Hauptprojekt Nr.';
             Description = 'G-ERP';
         }
-        field(60090; "Hyperlink"; Text[200])
+        field(60090; "Hyperlink"; Text[400])
         {
 
         }

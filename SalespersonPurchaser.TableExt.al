@@ -21,6 +21,12 @@ TableExtension 50001 tableextension50001 extends "Salesperson/Purchaser"
         field(50010; "Allow Edit Item"; Boolean)
         {
         }
+        field(50020; "Just Sales"; Boolean)
+        {
+            Caption = 'Just Sales';
+            Description = 'Filter für Kontakte, nur Vertrieb anzeigen';
+
+        }
     }
 }
 

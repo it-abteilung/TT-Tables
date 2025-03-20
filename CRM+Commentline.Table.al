@@ -5,28 +5,28 @@ Table 82012 "CRM+ Commentline"
 
     fields
     {
-        field(1;"Comment Type";Option)
+        field(1; "Comment Type"; Option)
         {
             Caption = 'Comment Type';
             OptionCaption = 'Partner,Ist1,Ist2,Ist3,Ist4,Ist5,Ist6,Präsentation,cri1,cri2,cri3,cri4,cri5,cri6,cri7,co1,co2,co3,Soll1,Soll2,Soll3,Soll4,Soll5,Soll6,AngbText,qualifText';
             OptionMembers = Partner,Ist1,Ist2,Ist3,Ist4,Ist5,Ist6,"Präsentation",cri1,cri2,cri3,cri4,cri5,cri6,cri7,co1,co2,co3,Soll1,Soll2,Soll3,Soll4,Soll5,Soll6,AngbText,qualifText;
         }
-        field(2;"Contactno.";Code[20])
+        field(2; "Contactno."; Code[20])
         {
             Caption = 'Contactno.';
             Editable = false;
             TableRelation = Contact;
         }
-        field(3;"Lineno.";Integer)
+        field(3; "Lineno."; Integer)
         {
             Caption = 'Lineno.';
             Editable = false;
         }
-        field(4;Date;Date)
+        field(4; Date; Date)
         {
             Caption = 'Date';
         }
-        field(6;Comment;Text[80])
+        field(6; Comment; Text[80])
         {
             Caption = 'Comment';
         }
@@ -34,7 +34,7 @@ Table 82012 "CRM+ Commentline"
 
     keys
     {
-        key(Key1;"Comment Type","Contactno.","Lineno.")
+        key(Key1; "Comment Type", "Contactno.", "Lineno.")
         {
             Clustered = true;
         }
@@ -68,7 +68,7 @@ Table 82012 "CRM+ Commentline"
         rCommentline.SetRecfilter;
         rCommentline.SetRange("Lineno.");
         if not rCommentline.Find('-') then
-          Date := WorkDate;
+            Date := WorkDate;
     end;
 }
 

@@ -18,12 +18,35 @@ TableExtension 50027 tableextension50027 extends Resource
             Caption = 'Kreditor';
             TableRelation = Vendor;
         }
-
         field(50010; "User ID"; Code[50])
         {
             Caption = 'Benutzer-ID';
             TableRelation = User."User Name";
             ValidateTableRelation = false;
+        }
+        field(50100; "Id Card"; Boolean)
+        {
+            Caption = 'Id Card';
+        }
+        field(50110; "Id Issued On"; Date)
+        {
+            Caption = 'Id Issued On';
+
+            trigger OnValidate()
+            begin
+                if "Id Issued On" > "Id Expires On" then
+                    Error('%1 kann nicht kleiner als %2 sein.', FieldCaption("Id Expires On"), FieldCaption("Id Issued On"));
+            end;
+        }
+        field(50120; "Id Expires On"; Date)
+        {
+            Caption = 'Id Expires On';
+
+            trigger OnValidate()
+            begin
+                if "Id Issued On" > "Id Expires On" then
+                    Error('%1 kann nicht kleiner als %2 sein.', FieldCaption("Id Expires On"), FieldCaption("Id Issued On"));
+            end;
         }
     }
 
